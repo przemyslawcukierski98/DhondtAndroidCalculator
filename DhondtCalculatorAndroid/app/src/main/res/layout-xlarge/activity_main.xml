@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/title"
+        android:textColor="@color/colorAccent"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstParty"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/first_party"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/secondParty"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/second_party"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/thirdParty"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/third_party"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/fourthParty"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="550dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/fourth_party"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/fifthParty"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="700dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/fifth_party"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/sixthParty"
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="850dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/sixth_party"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="242dp"
+        android:layout_height="112dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1005dp"
+        android:layout_marginEnd="79dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/button_text"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+</RelativeLayout>

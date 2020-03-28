@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/titleSecond"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/title"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/firstPartyTextView"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/titleSecond"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:text="@string/first_party"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/secondPartyTextView"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/titleSecond"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:text="@string/second_party"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/thirdPartyTextView"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/titleSecond"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:text="@string/third_party"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fourthPartyTextView"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/titleSecond"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="175dp"
+        android:ems="10"
+        android:text="@string/fourth_party"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fifthPartyTextView"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/titleSecond"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="225dp"
+        android:ems="10"
+        android:text="@string/fifth_party"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sixthPartyTextView"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/titleSecond"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="275dp"
+        android:ems="10"
+        android:text="@string/sixth_party"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/numberOfMandatsQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_below="@+id/titleSecond"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="153dp"
+        android:ems="10"
+        android:text="@string/numberOfMandatsQuestion"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/numberOfMandatsEditText"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleSecond"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="211dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/numberOfMandats"
+        android:textAlignment="center"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleSecond"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="22dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/button_text"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+</RelativeLayout>

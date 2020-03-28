@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Dhondt Calculator</string>
+    <string name="title">D\'Hondt Calculator</string>
+    <string name="party_one">Party 1</string>
+    <string name="party_two">Party 2</string>
+    <string name="party_three">Party 3</string>
+    <string name="party_four">Party 4</string>
+    <string name="party_five">Party 5</string>
+    <string name="party_six">Party 6</string>
+    <string name="first_party">First party</string>
+    <string name="second_party">Second party</string>
+    <string name="third_party">Third party</string>
+    <string name="fourth_party">Fourth party</string>
+    <string name="fifth_party">Fifth party</string>
+    <string name="sixth_party">Sixth party</string>
+    <string name="numberOfMandatsQuestion">Jaka jest liczba mandatów do uzyskania?</string>
+    <string name="numberOfMandats">0</string>
+    <string name="button_text">DALEJ</string>
+    <string name="mandats_button">OBLICZ MANDATY</string>
+    <string name="zero">0</string>
+    <string name="_zero">0</string>
+</resources>
